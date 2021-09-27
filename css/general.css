@@ -16,12 +16,14 @@ FONT SIZE SYSTEM (px)
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 body {
   line-height: 1;
   font-weight: 400;
   font-family: "Rubik", sans-serif;
   color: #555;
+  overflow-x: hidden;
 }
 /******************************/
 /*GENERAL REUSERBLE SECTION*/
@@ -39,7 +41,7 @@ body {
 .grid:not(:last-child) {
   margin-bottom: 9.6rem;
 }
-.grid-footer{
+.grid-footer {
   grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
 }
 .grid--2-cols {
@@ -121,8 +123,7 @@ body {
   color: #45260a;
   letter-spacing: -0.05rem;
 }
-.heading-primary {
-}
+
 .heading-secondary {
   font-size: 4.4rem;
   margin-bottom: 9.6rem;
@@ -169,4 +170,5 @@ strong {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+  line-height: 1.2;
 }
